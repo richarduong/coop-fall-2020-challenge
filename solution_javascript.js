@@ -1,7 +1,7 @@
 class EventSourcer {
 
   constructor() {
-    this.value = 0; //stores current value
+    this.value = 0;
     this.stateChange = [0]; //tracks changes made to the value
     this.currIdx = 0; //tracks most recent changee in value
   }
