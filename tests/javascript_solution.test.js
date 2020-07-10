@@ -128,5 +128,5 @@ test('test bulk redo overstep', () => {
   sourcer.undo();
   sourcer.bulk_redo(5);
 
-  expect(sourcer.value).toEqual(5);
+  expect(sourcer.value).toEqual(25); // based on omasabdullah's response: https://github.com/ApplyBoard/coop-fall-2020-challenge/issues/15#issuecomment-656809148
 });
